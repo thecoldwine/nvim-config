@@ -1,3 +1,3 @@
 require("thecoldwine.remap")
+require("thecoldwine.init")
 
-print("hello")
