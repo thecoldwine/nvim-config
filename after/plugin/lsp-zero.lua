@@ -7,7 +7,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-	ensure_installed = {'gopls', 'lua_ls', 'pyright', 'jsonls', 'html', 'htmx', 'nginx_language_server', 'sqls', 'yamlls'},
+	ensure_installed = {'gopls', 'lua_ls', 'pyright', 'jsonls', 'nginx_language_server', 'sqls', 'yamlls'},
 	handlers = {
 		function(server_name)
 			require('lspconfig')[server_name].setup({})
